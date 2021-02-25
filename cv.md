@@ -36,3 +36,33 @@ more [here](http://snarsky.ru) and on my site.
 ### Experience 
 
 My favorite tasks and sites as web-developer you might see on my site [snarsky.ru](http://snarsky.ru).
+
+### Education 
+
+- Period of time September – January 2020
+Educational Center for Programming and High Tech
+Course: Web application development with JavaScript 
+Description: functions, arrays, hash, OOP, ECMAScript6, DOM, Events, Timers, Cross-browsing, debugging, JSON, MVC, SPA, Node.js, jQuery
+
+- Period of time April – May 2019 
+Educational Center for Programming and High Tech 
+Course: Website development with HTML, CSS & JavaScript 
+Description: Introduction in HTML & CSS, Colors, fonts, sizes of text. Tables, indents, background, selectors, media, forms, positions, animation, flex. Introduction in JavaScript.
+
+- Period of time April – May 2018
+GLO Academy 
+Course: web-developer 13.0 
+Description: HTML5 & CSS3, floats, flex, bootstrap, jquery, landings
+
+- Bachelor's degree: Belarusian state economic university - economic socoilogy.
+
+- Master's degree: Belarusian state university - master of intercultural communication.
+
+- Certificates of courses [here](https://study.up-skills.ru/pl/18256801).
+
+### Level of English 
+Pre-intermediate
+
+Able to speak, read technical literature; carry on business correspondence, understand content of audio and video materials according to the level.
+
+I've learned English with personal teacher and three times of year go to meetings to american volunteers.
