@@ -2,7 +2,7 @@
 
 ### Alexander Snarsky
 
-![Alexander Snarsky](/img/my_photo.png)
+![Alexander Snarsky](/img/my-photo.png)
 
 ### Contacts 
 * [github](https://github.com/webdevsnarsky)
@@ -34,6 +34,24 @@ Every day i try to learn something new or repeat information which i know.
 more [here](http://snarsky.ru) and on my site. 
 
 ### Experience 
+
+```
+ getTurnAroundCard() {
+      this.target.closest('.card').classList.toggle('is-flipped');
+      this.target.classList.add('hidden');
+   
+      this.array = Array.from(this.contentCard);
+      this.array.forEach(item => {
+        item.addEventListener('mouseleave', () => {
+          item.classList.remove('is-flipped');
+          if (localStorage.inputChecked === 'false') {
+            this.allCardRotate.forEach(elem => elem.classList.remove('hidden'));
+          }
+          
+        });
+      });
+    }
+```
 
 My favorite tasks and sites as web-developer you might see on my site [snarsky.ru](http://snarsky.ru).
 
