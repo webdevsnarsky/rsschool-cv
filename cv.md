@@ -28,3 +28,11 @@ Every day i try to learn something new or repeat information which i know.
 | OS platforms: | Windows |
 | GitHub systems: | GitHub |
 | Additional technologies: | Adobe Photoshop, Figma |
+
+### Example of code 
+
+more [here](http://snarsky.ru) and on my site. 
+
+### Experience 
+
+My favorite tasks and sites as web-developer you might see on my site [snarsky.ru](http://snarsky.ru).
