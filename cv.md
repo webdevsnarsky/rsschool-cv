@@ -2,7 +2,7 @@
 
 ### Alexander Snarsky
 
-![Alexander Snarsky](/img/my-photo.png): //placehold.it/470x408
+![Alexander Snarsky](/img/my-photo.png/470x408 "Here could be my photo but something wrong")
 
 ### Contacts 
 * [github](https://github.com/webdevsnarsky)
