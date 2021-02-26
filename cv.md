@@ -18,7 +18,7 @@ Every day i try to learn something new or repeat information which i know.
 
 ### Skills 
 | Name of skills           | My skills                                        |
-| :------------------------|:-------------------------------------------------|
+|:-------------------------|:-------------------------------------------------|
 | HTML / CSS coding:       | HTML5, CSS3, Responsive and cross-browser coding |
 | Preprocessors:           | Sass/Less/Scss                                   |
 | JavaScript versions:     | ECMAScript 5-7                                   |
