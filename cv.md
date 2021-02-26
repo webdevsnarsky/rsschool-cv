@@ -23,8 +23,8 @@ Every day i try to learn something new or repeat information which i know.
 | Preprocessors:           | Sass/Less/Scss                                   |
 | JavaScript versions:     | ECMAScript 5-7                                   |
 | Frameworks / Libraries:  | Bootstrap, BEM, jQuery                           |
-| Backend experience:      | Node.js, Express.js                              |
-| Project builders:        | WebPack (basic knowledge)                        |
+| Backend experience:      | Node.js, Express.js (basic knowledge)            |
+| Project builders:        | WebPack, Gulp (basic knowledge)                  |
 | IDE:                     | VS Code                                          |
 | OS platforms:            | Windows                                          |
 | GitHub systems:          | GitHub                                           |
