@@ -2,7 +2,7 @@
 
 ### Alexander Snarsky
 
-![Alexander Snarsky](/img/my-photo.png)
+![Alexander Snarsky](/img/my-photo.png): //placehold.it/470x408
 
 ### Contacts 
 * [github](https://github.com/webdevsnarsky)
@@ -11,9 +11,10 @@
 * skype: das1410
 
 ### Summary
-I want to learn something new, actyality and what need for modern world market.
-To get important soft and technical skills - this's important for me. 
-Every day i try to learn something new or repeat information which i know. 
+My main goal is learn something new, actyality and what need for modern world market.
+My priority: clear mind, health body, good people.
+To get important soft and technical skills - this's important for me as a future specialist. 
+Every day i try to learn something new or repeat information which i know.  
 
 ### Skills 
 | Name of skills | My skills |
@@ -30,10 +31,6 @@ Every day i try to learn something new or repeat information which i know.
 | Additional technologies: | Adobe Photoshop, Figma |
 
 ### Example of code 
-
-more [here](http://snarsky.ru) and on my site. 
-
-### Experience 
 
 ```
  getTurnAroundCard() {
@@ -52,6 +49,10 @@ more [here](http://snarsky.ru) and on my site.
       });
     }
 ```
+
+more [here](http://snarsky.ru) and on my site. 
+
+### Experience 
 
 My favorite tasks and sites as web-developer you might see on my site [snarsky.ru](http://snarsky.ru).
 
