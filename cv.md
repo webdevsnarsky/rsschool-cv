@@ -57,27 +57,32 @@ more [here](http://snarsky.ru) and on my site.
 My favorite tasks and sites as web-developer you might see on my site [snarsky.ru](http://snarsky.ru).
 
 ### Education 
+* Period of time February – June 2020
+The Rolling Scopes School
+Course: HTML5, CSS3, JavaScript, applications, OOP, 
+DOM, Node.js
 
-- Period of time September – January 2020
+* Period of time September – January 2020
 Educational Center for Programming and High Tech
 Course: Web application development with JavaScript 
 Description: functions, arrays, hash, OOP, ECMAScript6, DOM, Events, Timers, Cross-browsing, debugging, JSON, MVC, SPA, Node.js, jQuery
 
-- Period of time April – May 2019 
+* Period of time April – May 2019 
 Educational Center for Programming and High Tech 
 Course: Website development with HTML, CSS & JavaScript 
 Description: Introduction in HTML & CSS, Colors, fonts, sizes of text. Tables, indents, background, selectors, media, forms, positions, animation, flex. Introduction in JavaScript.
 
-- Period of time April – May 2018
+* Period of time April – May 2018
 GLO Academy 
 Course: web-developer 13.0 
 Description: HTML5 & CSS3, floats, flex, bootstrap, jquery, landings
 
-- Bachelor's degree: Belarusian state economic university - economic socoilogy.
+* Bachelor's degree: Belarusian state economic university - economic socoilogy.
 
-- Master's degree: Belarusian state university - master of intercultural communication.
+*  Master's degree: Belarusian state university - master of intercultural communication.
+  
 
-- Certificates of courses [here](https://study.up-skills.ru/pl/18256801).
+* Certificates of courses [here](https://study.up-skills.ru/pl/18256801).
 
 ### Level of English 
 Pre-intermediate
