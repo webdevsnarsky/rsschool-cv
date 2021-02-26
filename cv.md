@@ -2,7 +2,7 @@
 
 ### Alexander Snarsky
 
-![Alexander Snarsky](/img/my-photo.png/470x408 "Here could be my photo but something wrong")
+![Alexander Snarsky](/img/my-photo.png "Here could be my photo but something wrong")
 
 ### Contacts 
 * [github](https://github.com/webdevsnarsky)
