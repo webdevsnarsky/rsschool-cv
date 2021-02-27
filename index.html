@@ -103,23 +103,24 @@
             <section class="example-of-code">
                 <div class="container">
                     <h3 class="example-of-code__title">Examples of code</h3>
-                    <xmp class="code">
+                    <pre class="code"> 
+                      <code>
                         getTurnAroundCard() {
-                            this.target.closest('.card').classList.toggle('is-flipped');
-                            this.target.classList.add('hidden');
-                         
-                            this.array = Array.from(this.contentCard);
-                            this.array.forEach(item => {
-                              item.addEventListener('mouseleave', () => {
-                                item.classList.remove('is-flipped');
-                                if (localStorage.inputChecked === 'false') {
-                                  this.allCardRotate.forEach(elem => elem.classList.remove('hidden'));
-                                }
-                                
-                              });
+                          this.target.closest('.card').classList.toggle('is-flipped');
+                          this.target.classList.add('hidden');
+                          this.array = Array.from(this.contentCard);
+                          this.array.forEach(item =&gt; {
+                            item.addEventListener('mouseleave', () =&gt; {
+                              item.classList.remove('is-flipped');
+                              if (localStorage.inputChecked === 'false') {
+                                this.allCardRotate.forEach(elem =&gt; 
+                                elem.classList.remove('hidden'));
+                              }
                             });
-                          }
-                    </xmp>
+                          });
+                        }
+                      </code>
+                    </pre>
                     <p class="example-of-code__link">more on my site <a href="http://snarsky.ru/maket-storent/">here</a></p>
                 </div>
             </section>
@@ -185,18 +186,19 @@
       </main>
       <footer class="footer">
         <div class="container">
-          <div class="footer-content">
-            <div class="footer-about">
-              <h4 class="footer-about__author">Alexander Snarsky</h4>
-              <p class="footer-about__descr">Resume</p>
+          <div class="footer__content">
+            <div class="footer__about">
+              <h4 class="footer__author">Alexander Snarsky</h4>
+              <p class="footer__descr">Resume</p>
             </div>
-            <!-- footer about -->
-            <div class="footer-social">
-              <p class="footer-social__text">Social networks</p>
-                <a href="https://www.facebook.com/a.snarsky"><img src="img/socials/facebook-logo.png" alt="Facebook"></a>
-                <a href="https://vk.com/asnarsky"><img src="img/socials/vk-logo.png" alt="Vkontakte"></a>
-                <a href="https://telegram.me/asnarsky"><img src="img/socials/telegram-logo.png" alt="Telegram"></a>
-                <a href="#"><img src="img/socials/youtube-logo.png" alt="Youtube"></a>
+            <div class="footer__social">
+              <p class="footer__text">Social networks</p>
+                <div class="footer__social-wrap">
+                  <a href="https://www.facebook.com/a.snarsky"><img src="img/socials/facebook-logo.png" alt="Facebook"></a>
+                  <a href="https://vk.com/asnarsky"><img src="img/socials/vk-logo.png" alt="Vkontakte"></a>
+                  <a href="https://telegram.me/asnarsky"><img src="img/socials/telegram-logo.png" alt="Telegram"></a>
+                  <a href="#"><img src="img/socials/youtube-logo.png" alt="Youtube"></a>
+                </div>
             </div>
             <!-- footer-social -->
             <div class="footer-feedback">
