@@ -69,6 +69,11 @@ h3{
     background:  linear-gradient(rgba(42, 74, 139, 0.8), rgba(42, 74, 139, 0.8)), no-repeat center center
     url(../img/skills-bg.jpg);
 }
+
+.contacts__links {
+    padding-left: 20px;
+}
+
 .contacts__link {
     margin-bottom: 5px;
 }
@@ -78,21 +83,15 @@ h3{
     margin-left: 5px;
 }
 
-.skills__table {
-    border-collapse: collapse;
-    border: 1px solid rgba(205, 214, 219, 1);
-    margin: 0 auto 10px;
+.skills__list {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 15px;
 }
 
-.skills__table th {
-    padding: 8px 0;
-    border: 1px solid rgba(205, 214, 219, 1);
-}
-
-.skills__table td { 
-    width: 200px;
-    padding: 0 0 5px 5px;
-    border: 1px solid rgba(205, 214, 219, 1);
+.skill__title ul {
+    padding-left: 20px;
 }
 
 .example-of-code {
@@ -137,6 +136,7 @@ code {
 }
 
 .expierence-video iframe {
+    border: none;
     width: 60%;
 }
 .education {
@@ -226,6 +226,12 @@ code {
     .expierence-video iframe {
         width: 80%;
     }
+
+    .skills__list {
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(4, auto);
+        grid-gap: 15px;
+    }
 } 
   
 @media(max-width: 560px) {
@@ -247,6 +253,12 @@ code {
   
     .header-content__title {
         margin: 5px 0;
+    }
+
+    .skills__list {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(5, auto);
+        grid-gap: 15px;
     }
 
     .code {
@@ -284,6 +296,13 @@ code {
 
     .expierence-video iframe {
         width: 100%;
+    }
+
+    .skills__list {
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(6, auto);
+        grid-gap: 15px;
+        padding-left: 15px;
     }
 
     .footer__content{
