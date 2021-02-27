@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snarsky CV</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+          <div class="header-content">
+            <div class="header-content__img">
+              <img src="img/my-photo.png" alt="snarsky">
+            </div>
+            <div class="header-content__text">
+              <p class="header-content__pretitle">Frontend developer</p>
+              <h1 class="header-content__title">Alexander Snarsky</h1>
+              <p class="header-content__subtitle">Resume</p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <!-- <div class="container"> -->
+          <!-- <div class="main-content"> -->
+            <div class="contacts">
+                <div class="container">
+                    <h3 class="contacts__title">Main contacts</h3>
+                    <p class="contacts__link">github: <a href="https://github.com/webdevsnarsky">webdevsnarsky</a></p>
+                    <p class="contacts__link">mob. phone: <a href="tel:+375297711649">+375297711649</a></p>
+                    <p class="contacts__link">e-mail: <a href="mailto:snarsky93@gmail.com">snarsky93@gmail.com</a></p>
+                    <p class="contacts__link">skype: <a href="#">das1410</a></p>
+                </div>
+            </div>
+            <!-- main-content__contacts -->
+            <section class="summary">
+              <div class="container">
+                <h3>Summary</h3>
+                <p>I want to learn something new, actyality and what need for modern world market. 
+                  To get important soft and technical skills - this's important for me. 
+                  Every day i try to learn something new or repeat information which i know.</p>
+              </div>
+            </section>
+            <!-- /.summary -->
+            <section class="skills">
+                <div class="container">
+                    <h3 class="skills__title">Skills</h3>
+                    <table class="skills__table">
+                        <thead>
+                            <tr>
+                                <th>Name of skills</th>
+                                <th>My skills</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>HTML / CSS coding:</td>
+                            <td>HTML5, CSS3, Responsive and cross-browser coding</td>
+                        </tr>
+                        <tr>
+                            <td>Preprocessors:</td>
+                            <td>Sass/Less/Scss</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript versions:</td>
+                            <td>ECMAScript 5-7</td>
+                        </tr>
+                        <tr>
+                            <td>Frameworks / Libraries:</td>
+                            <td>Bootstrap, BEM, jQuery</td>
+                        </tr>
+                        <tr>
+                            <td>Backend experience:</td>
+                            <td>Node.js, Express.js (basic knowledge)</td>
+                        </tr>
+                        <tr>
+                            <td>Project builders:</td>
+                            <td>WebPack, Gulp (basic knowledge)</td>
+                        </tr>
+                        <tr>
+                            <td>IDE:</td>
+                            <td>VS Code</td>
+                        </tr>
+                        <tr>
+                            <td>OS platforms:</td>
+                            <td>Windows</td>
+                        </tr>
+                        <tr>
+                            <td>GitHub systems:</td>
+                            <td>GitHub</td>
+                        </tr>
+                        <tr>
+                            <td>Additional technologies:</td>
+                            <td>Adobe Photoshop, Figma</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <!-- skills -->
+            <section class="example-of-code">
+                <div class="container">
+                    <h3 class="example-of-code__title">Examples of code</h3>
+                    <pre class="code"> 
+                      <code>
+                        getTurnAroundCard() {
+                          this.target.closest('.card').classList.toggle('is-flipped');
+                          this.target.classList.add('hidden');
+                          this.array = Array.from(this.contentCard);
+                          this.array.forEach(item =&gt; {
+                            item.addEventListener('mouseleave', () =&gt; {
+                              item.classList.remove('is-flipped');
+                              if (localStorage.inputChecked === 'false') {
+                                this.allCardRotate.forEach(elem =&gt; 
+                                elem.classList.remove('hidden'));
+                              }
+                            });
+                          });
+                        }
+                      </code>
+                    </pre>
+                    <p class="example-of-code__link">more on my site <a href="http://snarsky.ru/maket-storent/">here</a></p>
+                </div>
+            </section>
+            <!-- example-of-code -->
+            <section class="expierence">
+                <div class="container">
+                    <h3 class="expierence__title">Experience</h3>
+                    <p class="expierence__descr">Here you can see one of my projects. This is web app - health manager. How it works - look in the video</p>
+                    <div class="expierence-video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/83uTjiwwPJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+            <!-- expierence -->
+            <section class="education">
+                <div class="container">
+                    <h3 class="education__title">Education</h3>
+                    <h6 class="education__subtitle">- Period of time February – June 2020</h6>
+                    <details>
+                        <summary>The Rolling Scopes School</summary>
+                        <p>Course: Web application development with JavaScript</p>
+                        <p> Description: Course: HTML5, CSS3, JavaScript, applications, OOP, 
+                        DOM, Node.js</p>
+                    </details>
+                    <br>    
+                    <h6 class="education__subtitle">- Period of time September – January 2020</h6>
+                    <details>
+                        <summary>Educational Center for Programming and High Tech</summary>
+                        <p>Course: Web application development with JavaScript</p>
+                        <p>Description: functions, arrays, hash, OOP, ECMAScript6, DOM, Events, Timers, Cross-browsing, debugging, JSON, MVC, SPA, Node.js, jQuery</p></p>
+                    </details>
+                    <br>
+                    <h6 class="education__subtitle">- Period of time April – May 2019 </h6>
+                    <details>
+                        <summary>Educational Center for Programming and High Tech</summary>
+                        <p>Course: Website development with HTML, CSS & JavaScript</p>
+                        <p>Description: Introduction in HTML & CSS, Colors, fonts, sizes of text. Tables, indents, background, selectors, media, forms, positions, animation, flex. Introduction in JavaScript.</p>
+                    </details>
+                    <br>
+                    <h6 class="education__subtitle">- Period of time April – May 2018</h6>
+                    <details>
+                        <summary>GLO Academy</summary>
+                        <p>Course: web-developer 13.0</p>
+                        <p> Description: HTML5 & CSS3, floats, flex, bootstrap, jquery, landings</p>
+                    </details>
+                    <br>
+                    <h6 class="education__subtitle">- Bachelor's degree: Belarusian state economic university - economic socoilogy.</h6>
+                    <br>
+                    <h6 class="education__subtitle">- Master's degree: Belarusian state university - master of intercultural communication.</h6>
+                </div>
+            </section>
+            <!-- education -->
+            <section class="eng">
+                <div class="container">
+                    <h3 class="eng__title">English</h3>
+                    <h5 class="eng__level">Pre-intermediate</h5>
+                    <p class="eng__descr"></p>Able to speak, read technical literature; carry on business correspondence, understand content of audio and video materials according to the level.
+                    I've learned English with personal teacher and three times of year go to meetings to american volunteers.</p>
+                </div>
+            </section>
+          <!-- </div> -->
+        <!-- </div> -->
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__content">
+            <div class="footer__about">
+              <h4 class="footer__author">Alexander Snarsky</h4>
+              <p class="footer__descr">Resume</p>
+            </div>
+            <div class="footer__social">
+              <p class="footer__text">Social networks</p>
+                <div class="footer__social-wrap">
+                  <a href="https://www.facebook.com/a.snarsky"><img src="img/socials/facebook-logo.png" alt="Facebook"></a>
+                  <a href="https://vk.com/asnarsky"><img src="img/socials/vk-logo.png" alt="Vkontakte"></a>
+                  <a href="https://telegram.me/asnarsky"><img src="img/socials/telegram-logo.png" alt="Telegram"></a>
+                  <a href="#"><img src="img/socials/youtube-logo.png" alt="Youtube"></a>
+                </div>
+            </div>
+            <!-- footer-social -->
+            <div class="footer-feedback">
+              <a class="footer-feedback__link" href="https://www.linkedin.com/in/snarsky/">Contact</a>
+            </div>
+            <!-- footer-feedback -->
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
