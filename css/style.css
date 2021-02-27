@@ -137,6 +137,7 @@ code {
 }
 
 .expierence-video iframe {
+    border: none;
     width: 60%;
 }
 .education {
