@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snarsky CV</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header-content">
+            <div class="header-content__img">
+                <img src="img/my-photo.png" alt="snarsky">
+            </div>
+            <div class="header-content__text">
+                <p class="header-content__pretitle">Frontend developer</p>
+                <h1 class="header-content__title">Alexander Snarsky</h1>
+                <p class="header-content__subtitle">Resume</p>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <div class="contacts">
+        <div class="container">
+            <h2 class="contacts__title">Main contacts</h2>
+            <nav>
+                <ul class="contact__links">
+                    <li class="contacts__link">github: <a href="https://github.com/webdevsnarsky">webdevsnarsky</a></li>
+                    <li class="contacts__link">mob. phone: <a href="tel:+375297711649">+375297711649</a></li>
+                    <li class="contacts__link">e-mail: <a href="mailto:snarsky93@gmail.com">snarsky93@gmail.com</a></li>
+                    <li class="contacts__link">skype: <a href="#">das1410</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- main-content__contacts -->
+    <section class="summary">
+        <div class="container">
+            <h2>Summary</h2>
+            <p>I want to learn something new, actyality and what need for modern world market.
+                To get important soft and technical skills - this's important for me.
+                Every day i try to learn something new or repeat information which i know.</p>
+        </div>
+    </section>
+    <!-- /.summary -->
+    <section class="skills">
+        <div class="container">
+            <h2 class="skills__title">Skills</h2>
+            <ul class="skills__list">
+                <li class="skill__title">
+                    HTML / CSS coding:
+                    <ul>
+                        <li class="skill">HTML5</li>
+                        <li class="skill">CSS3</li>
+                        <li class="skill">Responsive and cross-browser coding</li>
+                    </ul>
+                </li>
+                <li class="skill__title">Preprocessors:
+                    <ul>
+                        <li class="skill">Scss</li>
+                        <li class="skill">Less</li>
+                        <li class="skill">Sass</li>
+                    </ul>
+                </li>
+                <li class="skill__title">JavaScript versions:
+                    <ul>
+                        <li class="skill">ECMAScript 5-7</li>
+                    </ul>
+                </li>
+                <li class="skill__title">Frameworks / Libraries:
+                    <ul>
+                        <li class="skill">Bootstrap</li>
+                        <li class="skill">BEM</li>
+                        <li class="skill">jQuery</li>
+                    </ul>
+                </li>
+                <li class="skill__title">Backend experience:
+                    <ul>
+                        <li class="skill">Node.js (basic knowledge)</li>
+                        <li class="skill">Express.js (basic knowledge)</li>
+                    </ul>
+                </li>
+                <li class="skill__title">Project builders:
+                    <ul>
+                        <li class="skill">WebPack(basic knowledge)</li>
+                        <li class="skill">Gulp (basic knowledge)</li>
+                    </ul>
+                </li>
+                <li class="skill__title">IDE:
+                    <ul>
+                        <li class="skill">VS Code</li>
+                    </ul>
+                </li>
+                <li class="skill__title">OS platforms:
+                    <ul>
+                        <li class="skill">Windows</li>
+                    </ul>
+                </li>
+                <li class="skill__title">GitHub systems:
+                    <ul>
+                        <li class="skill">GitHub</li>
+                    </ul>
+                </li>
+                <li class="skill__title">Additional technologies:
+                    <ul>
+                        <li class="skill">Adobe Photoshop</li>
+                        <li class="skill">Figma</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- skills -->
+    <section class="example-of-code">
+        <div class="container">
+            <h2 class="example-of-code__title">Examples of code</h2>
+            <pre class="code"><code>
+                        getTurnAroundCard() {<br>this.target.closest('.card').classList.toggle('is-flipped');
+                        this.target.classList.add('hidden');
+                        this.array = Array.from(this.contentCard);
+                        this.array.forEach(item =&gt; {
+                            item.addEventListener('mouseleave', () =&gt; {
+                            item.classList.remove('is-flipped');
+                            if (localStorage.inputChecked === 'false') {
+                                this.allCardRotate.forEach(elem =&gt;
+                                elem.classList.remove('hidden'));
+                            }
+                            });
+                        });
+                        }
+                    </code>
+                    </pre>
+            <p class="example-of-code__link">more on my github <a href="https://github.com/webdevsnarsky/maket-storent">here</a></p>
+        </div>
+    </section>
+    <!-- example-of-code -->
+    <section class="expierence">
+        <div class="container">
+            <h2 class="expierence__title">Experience</h2>
+            <p class="expierence__descr">Here you can see one of my projects. This is web app - health manager. How it
+                works - look in the video</p>
+            <div class="expierence-video">
+                <iframe title="snarsky project" width="560" height="315" src="https://www.youtube.com/embed/83uTjiwwPJg"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- expierence -->
+    <section class="education">
+        <div class="container">
+            <h2 class="education__title">Education</h2>
+            <h6 class="education__subtitle">- Period of time February – June 2020</h6>
+            <details>
+                <summary>The Rolling Scopes School</summary>
+                <p>Course: Web application development with JavaScript</p>
+                <p> Description: Course: HTML5, CSS3, JavaScript, applications, OOP, DOM, Node.js</p>
+            </details>
+            <br>
+            <h6 class="education__subtitle">- Period of time September – January 2020</h6>
+            <details>
+                <summary>Educational Center for Programming and High Tech</summary>
+                <p>Course: Web application development with JavaScript</p>
+                <p>Description: functions, arrays, hash, OOP, ECMAScript6, DOM, Events, Timers, Cross-browsing,
+                    debugging, JSON, MVC, SPA, Node.js, jQuery</p>
+            </details>
+            <br>
+            <h6 class="education__subtitle">- Period of time April – May 2019 </h6>
+            <details>
+                <summary>Educational Center for Programming and High Tech</summary>
+                <p>Course: Website development with HTML, CSS &amp; JavaScript</p>
+                <p>Description: Introduction in HTML &amp; CSS, Colors, fonts, sizes of text. Tables, indents,
+                    background, selectors, media, forms, positions, animation, flex. Introduction in JavaScript.</p>
+            </details>
+            <br>
+            <h6 class="education__subtitle">- Period of time April – May 2018</h6>
+            <details>
+                <summary>GLO Academy</summary>
+                <p>Course: web-developer 13.0</p>
+                <p> Description: HTML5 &amp; CSS3, floats, flex, bootstrap, jquery, landings</p>
+            </details>
+            <br>
+            <h6 class="education__subtitle">- Bachelor's degree: Belarusian state economic university - economic
+                socoilogy.</h6>
+            <br>
+            <h6 class="education__subtitle">- Master's degree: Belarusian state university - master of intercultural
+                communication.</h6>
+        </div>
+    </section>
+    <!-- education -->
+    <section class="eng">
+        <div class="container">
+            <h2 class="eng__title">English</h2>
+            <h5 class="eng__level">Intermediate - B1 (in progress)</h5>
+            <p class="eng__descr">Able to speak, read technical literature; carry on business correspondence, understand
+                content of audio and video materials according to the level.
+                I've learned English with personal teacher and three times of year go to meetings to american
+                volunteers.</p>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__content">
+            <div class="footer__rss rss">
+                <a href="https://rs.school/js/" class="rss__link">
+                    <img src="./img/rss_logo.svg" alt="rss logo" class="rss__logo">
+                </a>
+            </div>
+            <p class="footer__year">2022</p>
+            <div class="footer__github gitnub">
+                <a href="https://github.com/webdevsnarsky" class="github__link">GitHub</a>
+            </div>
+        </div>
+            <!-- <div class="footer__social">
+                <p class="footer__text">Social networks</p>
+                <div class="footer__social-wrap">
+                    <a href="https://www.facebook.com/a.snarsky"><img src="img/socials/facebook-logo.png" alt="Facebook"></a>
+                    <a href="https://vk.com/asnarsky"><img src="img/socials/vk-logo.png" alt="Vkontakte"></a>
+                    <a href="https://telegram.me/asnarsky"><img src="img/socials/telegram-logo.png" alt="Telegram"></a>
+                    <a href="#"><img src="img/socials/youtube-logo.png" alt="Youtube"></a>
+                </div> -->
+            <!-- footer-social -->
+            <!-- <div class="footer-feedback">
+                <a class="footer-feedback__link" href="https://www.linkedin.com/in/snarsky/">Contact</a>
+            </div> -->
+            <!-- footer-feedback -->
+        </div>
+</footer>
+</body>
+</html>
